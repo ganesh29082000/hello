@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+img{
+	width: 50%;
+	height: 50%;
+	
+}
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
