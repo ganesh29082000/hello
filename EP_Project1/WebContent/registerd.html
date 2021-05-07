@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Registration Page</title>
+    <link rel="stylesheet" href="register1.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <style>
+    .wrapper {
+	margin-bottom: auto;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+
+    </style>
+   </head>
+<body>
+<div class="wrapper">
+
+			<ul class="nav-area">
+				<li><a href="about.html">About</a></li>
+				<li><a href="login1.html">User</a></li>
+				<li><a href="admin.html">Admin</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+				<li><a href="timetable.html">Time Table</a></li>
+			</ul>
+		</div>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="DancerRegistration" method="post">
+        <div class="user-details">
+         
+          <div class="input-box">
+            <span class="details" >Name</span>
+            <input type="text" placeholder="Enter your name" name="name"required>
+          </div>
+          <div class="input-box">
+            <span class="details" >Email</span>
+            <input type="text" placeholder="Enter your email"name="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details" >Age</span>
+            <input type="text" placeholder="Enter your age"name="age" required>
+          </div>
+          <div class="input-box">
+            <span class="details" >Phone Number</span>
+            <input type="text" placeholder="Enter your phone number"name="phonenumber" required>
+          </div>
+          <div class="input-box">
+            <span class="details" name="username">Username</span>
+            <input type="text" placeholder="Enter your username" name="username" required>
+          </div>
+          <div class="input-box">
+            <span class="details" name="password">Password</span>
+            <input type="password" placeholder="Enter your password" name="password" required>
+          </div>
+        </div>
+        
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
