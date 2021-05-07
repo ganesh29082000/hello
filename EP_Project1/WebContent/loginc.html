@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="logind.css">
+    <style>
+    .wrapper {
+	width: 1170px;
+	margin: auto;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+    </style>
+<body>
+<div class="wrapper" style="width: 1170px;margin: auto;">
+
+			<ul class="nav-area">
+				<li><a href="about.html">About</a></li>
+				<li><a href="login1.html">User</a></li>
+				<li><a href="admin.html">Admin</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+				<li><a href="timetable.html">Time Table</a></li>
+			</ul>
+		</div>
+    <div class="loginbox">
+    <img src="avatar.jpeg" class="avatar">
+        <h1>Login Here</h1>
+        <form action="MasterLogin" method="get">
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="submit"  value="Login">
+            
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>
